@@ -8,10 +8,10 @@ function getRestaurants() {
         .then(response => response.json())
         .then(data => (data));
 }
-// console.log(getRestaurants())
+console.log(getRestaurants())
 
 function buildImages(){
     const pictures = document.getElementById('ramen-menu');
     pictures.appendChild('img').textContent('ramens');
-    
+
 }
